@@ -1,0 +1,41 @@
+* *Features:*
+	* Added top rated content shortcode. 
+	* 5 sizes for shapes are available now. (Small: 15px, Regular: 20px (default), Medium: 25px, Big: 35px, Huge: 50px)
+	* Ability to allow re-voting
+	* Ability to enable break down of votes on the front end.
+	* Ability to disable "half" shapes, displayed rating will be rounded. 
+	* Ability to add 'initial rating' to post/page/custom post type object.
+	* Ability to add captions to shapes. For example, 'Loved it' or 'Hated it'.
+	* Ability to add text before rating (for example "Rating:").
+	* Voting is now possible from any location instead of only being possible from single page.
+	* Customizable notification for succes/error (enable/disable, background color, text color, texts are customizable trough edits to localization) after vote is cast, for example "Thank you for your vote" or "You vote has been updated".
+	* Ability to show numeric average rating after shapes
+
+* *Bugfixes:*
+	* Fixed inclusion of unpublished posts into Top Rated content. Thanks to younk for reporting.
+	* Fixed typo in closing ul tag in Top Rated content widget. Thanks to younk for reporting.
+	* Rating will now also show in loops (if related option is set to true) other than ones in archives and on home page. Thanks to ry4nallen for reporting this fail in logic.
+	* Properly add in-line styles now. Thanks to Vanhael for reporting.
+	* Properly works with excerpts now.
+	* Stats will not be displayed for entries for which rating is disabled.
+	* Checkbox to disable rating will only show up for entries of post types for which rating is enabled.
+	* Fixed issue which sometimes caused rating to not work with custom post types.
+
+* *Enhancements:*
+	* Added German localization. Translation by Timo Fach, proof reading by Brenna King.
+	* Updated graphics. Better looking shapes in svg format. 
+	* Option to display rating in Top Content widget.
+	* Two new shapes (diamonds and crowns).
+	* Underline decoration for vote counter
+	* Info columns on posts/pages/custom post types entities listing pages - Rating, Amount of votes, combined column for rating and amount of votes.
+	* Upon activation, plugin's locale will be set to the one used by site (if it's present).
+	* New, more organized settings page.
+	* Improved metabox on editing screen
+
+* *Misc:*
+	* Plugin has been rewritten from scartch and now uses class.
+	* Cleaned up code
+	* Major performance optimizations
+	* Removed one database table used by plugin. 
+	* Code changes to prevent minifing plugins from breaking this plugin. 
+	* Doc blocks for functions to make it easier to understand what does what for those who want to make modifications.
